@@ -1,0 +1,31 @@
+* {
+    font-family: Microsoft JhengHei;
+}
+
+/* index.blade.php */
+.btn-index {
+    margin:5px;
+}
+.btn-color{
+    color:white;
+    background-color: rgb(61, 70, 119);
+}
+.btn-color:hover {
+    color:white;
+    background-color: rgb(28, 35, 71);
+}
+
+/* show.blade.php */
+
+
+/* edit.blade.php */
+.form-title{
+    font-weight: bold;
+    font-size:20px;
+}
+.form-body {
+    font-weight: bold;
+    font-size:20px;
+    margin-top:20px;
+}
+
