@@ -6,13 +6,14 @@
 <?php 
       list($width, $height) = getimagesize(public_path('images\\' . $post->image));
       $user = Auth::user();
+      
 ?>
     <div class="row">
         <div class="col-md-8">
             <h2>{{ $post->title }}</h2>
             
             @if($width > $height)
-                <img src="{{ asset('images/' . $post->image) }}" alt="image" style="width:600px;height:300px;">
+                <img src="{{ asset('images/' . $post->image) }}" alt="image" style="width:600px;height:400px;">
             @else
                 <img src="{{ asset('images/' . $post->image) }}" alt="image" style="width:400px;height:600px;">
             @endif
@@ -61,10 +62,10 @@
                     <dt>作者:</dt>                    
                     <dd>{{ $post->user_name }}</dd>
                 <dl>
-                <!-- <dl class="dl-horizontal">
+                <dl class="dl-horizontal">
                     <label>Url:</label>                    
                     <a style="font-size:13px;color:grey;" href="{{ route('blog.single',$post->slug) }}">{{ route('blog.single',$post->slug) }}</a>
-                <dl> -->
+                <dl>
                 <dl class="dl-horizontal">
                     <dt>類別:</dt>                    
                     <dd># {{ $post->category->name }}</dd>
@@ -78,7 +79,7 @@
                     <dd>{{ date('Y/m/j , H:i', strtotime($post->updated_at)) }}</dd>
                 <dl>
                 <hr>
-                <?php $user = Auth::user();?>
+                
                 @if ($post->user_name == $user->name)
                     <div class="row">
                     <div class="col-sm-6">

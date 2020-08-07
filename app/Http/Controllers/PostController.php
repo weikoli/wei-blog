@@ -51,7 +51,7 @@ class PostController extends Controller
         //validate the data
         $this->validate($request,array(
             'title' => 'required|max:50',
-            'slug' => 'required|alpha_dash|min:3|max:100|unique:posts,slug',
+            'slug' => 'required|alpha_dash|min:3|max:255|unique:posts,slug',
             'category_id' => 'required|integer',
             'body' => 'required',
             'featured_image' => 'sometimes|image|mimes:jpeg,png'
@@ -130,7 +130,7 @@ class PostController extends Controller
         //Validate the data
         $this->validate($request, array(
                 'title' => 'required|max:255',
-                'slug'  => "required|alpha_dash|min:3|max:30|unique:posts,slug,$id",
+                'slug'  => "required|alpha_dash|min:3|max:255|unique:posts,slug,$id",
                 'category_id' => 'required|integer',
                 'body'  => 'required',
                 'featured_image' => 'image'

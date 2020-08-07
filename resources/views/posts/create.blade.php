@@ -13,8 +13,8 @@
                 {{ Form::label('title','標題') }}             
                 {{ Form::text('title',null,array('class' => 'form-control')) }}             
                 <br>
-                {{ Form::label('slug','網址tag:(限英文)')}}
-                {{ Form::text('slug',null,array('class' => 'form-control', 'required' => '','minlength'=>'3','maxlength'=>'20')) }}
+                {{ Form::label('slug','網址tag:(英文)')}}
+                {{ Form::text('slug',null,array('class' => 'form-control', 'required' => '','minlength'=>'3','maxlength'=>'255')) }}
 
                 {{ Form::label('category_id','類別')}}
                 <select class="form-control" name="category_id">

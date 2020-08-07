@@ -6,7 +6,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h1 style="text-align:center;">Blog</h1>
+            <h1 style="text-align:center;">部落格</h1>
         </div>
     </div>
 

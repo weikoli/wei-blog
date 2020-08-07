@@ -6,7 +6,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item {{ Request::is('/') ? 'active' : '' }}"><a href="/" class="nav-link">首頁</a></li>
-                    <li class="nav-item {{ Request::is('blog') ? 'active' : '' }}"><a href="/blog" class="nav-link">貼文區</a></li>
+                    <li class="nav-item {{ Request::is('blog') ? 'active' : '' }}"><a href="/blog" class="nav-link">部落格</a></li>
                     <li class="nav-item {{ Request::is('about') ? 'active' : '' }}"><a href="/about" class="nav-link">關於我</a></li>
                     <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}"><a href="/contact" class="nav-link">聯繫我</a></li>
                 </ul>
