@@ -11,7 +11,7 @@
         <div class="col-md-12">
             <div class="jumbotron">
                 <h1 class="display-4">Welcome to my Blog</h1>
-                <p class="lead">My name is Vivian. Now a junior student in National Tsing-Hua University.</p>
+                <p class="lead">My name is Vivian. Now a senior student in National Tsing-Hua University.</p>
                 <hr class="my-4">
                 <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-3 col-md-offset-1">
                 <h2>HELLO GUYS</h2>
-                <img src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.0-9/69262527_1336804803152270_2618178335263424512_o.jpg?_nc_cat=109&_nc_sid=174925&_nc_ohc=sB2YaJewcGgAX9_xyIB&_nc_ht=scontent.ftpe8-1.fna&oh=19b3350cdfda283b8ef5c8343090eb29&oe=5F484518" alt="VIVIAN" style="width:300px;height:300px;">
+                <img src="https://scontent-hkt1-2.xx.fbcdn.net/v/t1.0-9/126501444_1755468764619203_8666033330059557819_o.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=piunCj2SBK8AX8trMgA&_nc_ht=scontent-hkt1-2.xx&oh=6b7386b60ea146b7b4e1329176778bc0&oe=5FED7B0A" alt="VIVIAN" style="width:300px;height:300px;">
             </div>
         </div>
             
